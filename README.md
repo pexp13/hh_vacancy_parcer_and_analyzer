@@ -103,13 +103,9 @@ hh-vacancy-parser/
 | `mDeBERTa-v3-base-xnli` | zero-shot классификация без обучающей выборки |
 | `Streamlit` + `Plotly` | интерактивный дашборд |
 
-## ⚙️ Переменные окружения
+## Переменные окружения
 
-Для работы с Hugging Face моделями создайте файл `.env` в корне проекта:
-
-```
-HF_TOKEN=your_huggingface_token_here
-```
+Для удобной работы с Hugging Face моделями создайте токен.
 
 Получить токен можно на [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens) (бесплатно).
 
